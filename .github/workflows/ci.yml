@@ -20,6 +20,6 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m inittest test_calcular.py
+        python -m unittest test_calcular.py
 
 
