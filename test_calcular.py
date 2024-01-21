@@ -14,7 +14,7 @@ class TestSumar(unittest.TestCase):
 class TestRestar(unittest.TestCase):
     def test_restar(self):
         self.assertEqual(restar(3, 2), 1)
-        self.assertEqual(restar(-1, 1), 2)
+        self.assertEqual(restar(-1, 1), -2)
         self.assertEqual(restar(-1, -1), 0)
 
 class TestMultiplicar(unittest.TestCase):
