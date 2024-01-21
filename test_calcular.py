@@ -26,7 +26,7 @@ class TestMultiplicar(unittest.TestCase):
 
 class TestDividir(unittest.TestCase):
     def test_dividir(self):
-        self.assertEqual(dividir(3, 2), 1,5)
+        self.assertEqual(dividir(3, 2), 1.5)
         self.assertEqual(dividir(-1, 1), -1)
         self.assertEqual(dividir(-1, -1), 1)  
         self.assertEqual(dividir(0, 5), 0) 
